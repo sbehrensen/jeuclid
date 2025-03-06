@@ -19,10 +19,10 @@
 package net.sourceforge.jeuclid.elements.presentation.script;
 
 import net.sourceforge.jeuclid.elements.JEuclidElement;
+import net.sourceforge.jeuclid.mathml.MathMLElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLElement;
 
 /**
  * This class arranges an element under, and an other element over an element.

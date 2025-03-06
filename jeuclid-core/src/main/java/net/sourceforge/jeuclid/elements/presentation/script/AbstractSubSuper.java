@@ -23,9 +23,9 @@ import net.sourceforge.jeuclid.elements.JEuclidElement;
 import net.sourceforge.jeuclid.layout.LayoutInfo;
 import net.sourceforge.jeuclid.layout.LayoutStage;
 import net.sourceforge.jeuclid.layout.LayoutView;
+import net.sourceforge.jeuclid.mathml.MathMLScriptElement;
 
 import org.apache.batik.dom.AbstractDocument;
-import org.w3c.dom.mathml.MathMLScriptElement;
 
 /**
  * Generic support for all elements that have a subscript or a superscript

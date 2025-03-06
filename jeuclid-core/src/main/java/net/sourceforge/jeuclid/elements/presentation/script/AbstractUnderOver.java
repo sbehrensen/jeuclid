@@ -33,11 +33,11 @@ import net.sourceforge.jeuclid.elements.support.attributes.AttributesHelper;
 import net.sourceforge.jeuclid.layout.LayoutInfo;
 import net.sourceforge.jeuclid.layout.LayoutStage;
 import net.sourceforge.jeuclid.layout.LayoutView;
+import net.sourceforge.jeuclid.mathml.MathMLElement;
+import net.sourceforge.jeuclid.mathml.MathMLOperatorElement;
+import net.sourceforge.jeuclid.mathml.MathMLUnderOverElement;
 
 import org.apache.batik.dom.AbstractDocument;
-import org.w3c.dom.mathml.MathMLElement;
-import org.w3c.dom.mathml.MathMLOperatorElement;
-import org.w3c.dom.mathml.MathMLUnderOverElement;
 
 /**
  * Implementation and helper methods for munder, mover, and munderover.

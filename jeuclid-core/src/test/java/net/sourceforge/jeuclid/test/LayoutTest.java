@@ -26,10 +26,11 @@ import net.sourceforge.jeuclid.elements.presentation.token.Mn;
 import net.sourceforge.jeuclid.layout.JEuclidView;
 import net.sourceforge.jeuclid.layout.LayoutStage;
 import net.sourceforge.jeuclid.layout.LayoutableNode;
+import net.sourceforge.jeuclid.mathml.*;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.*;
 import org.w3c.dom.views.DocumentView;
 
 import java.util.List;

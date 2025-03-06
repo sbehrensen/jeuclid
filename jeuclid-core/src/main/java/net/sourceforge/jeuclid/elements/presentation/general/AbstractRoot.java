@@ -37,8 +37,9 @@ import net.sourceforge.jeuclid.layout.LayoutableNode;
 import net.sourceforge.jeuclid.layout.LineObject;
 
 import net.sourceforge.jeuclid.layout.Path2DShapeObject;
+import net.sourceforge.jeuclid.mathml.MathMLRadicalElement;
+
 import org.apache.batik.dom.AbstractDocument;
-import org.w3c.dom.mathml.MathMLRadicalElement;
 
 /**
  * common superclass for root like elements (root, sqrt).

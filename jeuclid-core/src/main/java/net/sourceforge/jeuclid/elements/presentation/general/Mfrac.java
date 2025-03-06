@@ -37,11 +37,11 @@ import net.sourceforge.jeuclid.layout.LayoutStage;
 import net.sourceforge.jeuclid.layout.LayoutView;
 import net.sourceforge.jeuclid.layout.LayoutableNode;
 import net.sourceforge.jeuclid.layout.LineObject;
+import net.sourceforge.jeuclid.mathml.MathMLElement;
+import net.sourceforge.jeuclid.mathml.MathMLFractionElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLElement;
-import org.w3c.dom.mathml.MathMLFractionElement;
 
 /**
  * This math element presents a mathematical fraction.

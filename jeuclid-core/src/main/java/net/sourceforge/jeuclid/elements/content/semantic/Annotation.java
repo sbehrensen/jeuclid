@@ -19,10 +19,10 @@
 package net.sourceforge.jeuclid.elements.content.semantic;
 
 import net.sourceforge.jeuclid.elements.AbstractInvisibleJEuclidElement;
+import net.sourceforge.jeuclid.mathml.MathMLAnnotationElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLAnnotationElement;
 
 /**
  * This class represents a annotation element.

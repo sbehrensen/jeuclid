@@ -36,15 +36,16 @@ import net.sourceforge.jeuclid.layout.LayoutInfo;
 import net.sourceforge.jeuclid.layout.LayoutStage;
 import net.sourceforge.jeuclid.layout.LayoutView;
 import net.sourceforge.jeuclid.layout.TextObject;
+import net.sourceforge.jeuclid.mathml.MathMLOperatorElement;
+import net.sourceforge.jeuclid.mathml.MathMLScriptElement;
+import net.sourceforge.jeuclid.mathml.MathMLUnderOverElement;
+
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Node;
 import org.w3c.dom.events.Event;
 import org.w3c.dom.events.EventListener;
 import org.w3c.dom.events.EventTarget;
-import org.w3c.dom.mathml.MathMLOperatorElement;
-import org.w3c.dom.mathml.MathMLScriptElement;
-import org.w3c.dom.mathml.MathMLUnderOverElement;
 
 import java.awt.*;
 import java.awt.font.TextLayout;

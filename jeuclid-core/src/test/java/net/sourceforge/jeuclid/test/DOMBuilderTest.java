@@ -25,13 +25,13 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import net.sourceforge.jeuclid.DOMBuilder;
 import net.sourceforge.jeuclid.elements.AbstractJEuclidElement;
 import net.sourceforge.jeuclid.elements.presentation.token.Mspace;
+import net.sourceforge.jeuclid.mathml.MathMLPresentationToken;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.DocumentFragment;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLPresentationToken;
 import org.xml.sax.InputSource;
 
 /**

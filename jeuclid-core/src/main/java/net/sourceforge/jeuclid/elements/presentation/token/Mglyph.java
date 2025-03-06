@@ -28,10 +28,10 @@ import net.sourceforge.jeuclid.elements.support.GraphicsSupport;
 import net.sourceforge.jeuclid.elements.support.text.StringUtil;
 import net.sourceforge.jeuclid.elements.support.text.TextContentModifier;
 import net.sourceforge.jeuclid.font.FontFactory;
+import net.sourceforge.jeuclid.mathml.MathMLGlyphElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLGlyphElement;
 
 /**
  * Implements the mglyph element.

@@ -23,10 +23,10 @@ import net.sourceforge.jeuclid.LayoutContext;
 import net.sourceforge.jeuclid.context.Display;
 import net.sourceforge.jeuclid.context.Parameter;
 import net.sourceforge.jeuclid.elements.presentation.AbstractContainer;
+import net.sourceforge.jeuclid.mathml.MathMLMathElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLMathElement;
 
 /**
  * The root element for creating a MathElement tree.

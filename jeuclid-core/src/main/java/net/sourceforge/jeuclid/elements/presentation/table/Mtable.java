@@ -41,16 +41,16 @@ import net.sourceforge.jeuclid.layout.LayoutStage;
 import net.sourceforge.jeuclid.layout.LayoutView;
 import net.sourceforge.jeuclid.layout.LayoutableNode;
 import net.sourceforge.jeuclid.layout.LineObject;
+import net.sourceforge.jeuclid.mathml.MathMLLabeledRowElement;
+import net.sourceforge.jeuclid.mathml.MathMLNodeList;
+import net.sourceforge.jeuclid.mathml.MathMLTableCellElement;
+import net.sourceforge.jeuclid.mathml.MathMLTableElement;
+import net.sourceforge.jeuclid.mathml.MathMLTableRowElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLLabeledRowElement;
-import org.w3c.dom.mathml.MathMLNodeList;
-import org.w3c.dom.mathml.MathMLTableCellElement;
-import org.w3c.dom.mathml.MathMLTableElement;
-import org.w3c.dom.mathml.MathMLTableRowElement;
 
 /**
  * This class presents a table.

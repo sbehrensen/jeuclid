@@ -20,13 +20,13 @@ package net.sourceforge.jeuclid.test.elements;
 
 import net.sourceforge.jeuclid.DOMBuilder;
 import net.sourceforge.jeuclid.MathMLParserSupport;
+import net.sourceforge.jeuclid.mathml.MathMLDocument;
+import net.sourceforge.jeuclid.mathml.MathMLMathElement;
+import net.sourceforge.jeuclid.mathml.MathMLMultiScriptsElement;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.w3c.dom.Document;
-import org.w3c.dom.mathml.MathMLDocument;
-import org.w3c.dom.mathml.MathMLMathElement;
-import org.w3c.dom.mathml.MathMLMultiScriptsElement;
 
 /**
  * Various tests for the MMultiscript Element.

@@ -26,10 +26,10 @@ import net.sourceforge.jeuclid.elements.support.attributes.MathVariant;
 import net.sourceforge.jeuclid.elements.support.text.MultiAttributedCharacterIterator;
 import net.sourceforge.jeuclid.elements.support.text.StringUtil;
 import net.sourceforge.jeuclid.elements.support.text.TextContentModifier;
+import net.sourceforge.jeuclid.mathml.MathMLStringLitElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLStringLitElement;
 
 /**
  * This class represents string in a equation.

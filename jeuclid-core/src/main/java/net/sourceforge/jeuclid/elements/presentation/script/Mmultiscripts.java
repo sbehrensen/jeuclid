@@ -30,12 +30,12 @@ import net.sourceforge.jeuclid.elements.support.MathMLNodeListImpl;
 import net.sourceforge.jeuclid.layout.LayoutInfo;
 import net.sourceforge.jeuclid.layout.LayoutStage;
 import net.sourceforge.jeuclid.layout.LayoutView;
+import net.sourceforge.jeuclid.mathml.MathMLElement;
+import net.sourceforge.jeuclid.mathml.MathMLMultiScriptsElement;
+import net.sourceforge.jeuclid.mathml.MathMLNodeList;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLElement;
-import org.w3c.dom.mathml.MathMLMultiScriptsElement;
-import org.w3c.dom.mathml.MathMLNodeList;
 
 /**
  * Prescripts and Tensor Indices.

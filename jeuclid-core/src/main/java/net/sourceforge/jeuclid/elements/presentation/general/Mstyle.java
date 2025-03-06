@@ -23,12 +23,12 @@ import net.sourceforge.jeuclid.context.Display;
 import net.sourceforge.jeuclid.context.Parameter;
 import net.sourceforge.jeuclid.elements.presentation.AbstractContainer;
 import net.sourceforge.jeuclid.elements.support.attributes.AttributesHelper;
+import net.sourceforge.jeuclid.mathml.MathMLStyleElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLStyleElement;
 
 /**
  * This class arrange an element lower to an other element.

@@ -25,10 +25,10 @@ import net.sourceforge.jeuclid.LayoutContext;
 import net.sourceforge.jeuclid.context.InlineLayoutContext;
 import net.sourceforge.jeuclid.context.RelativeScriptlevelLayoutContext;
 import net.sourceforge.jeuclid.layout.LayoutableNode;
+import net.sourceforge.jeuclid.mathml.MathMLElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLElement;
 
 /**
  * This class presents a mathematical root.

@@ -21,12 +21,12 @@ package net.sourceforge.jeuclid.test;
 import net.sourceforge.jeuclid.DOMBuilder;
 import net.sourceforge.jeuclid.MathMLParserSupport;
 import net.sourceforge.jeuclid.elements.AbstractJEuclidElement;
+import net.sourceforge.jeuclid.mathml.MathMLDocument;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLDocument;
 
 /**
  * Tests misc DOM Namespace functionality.

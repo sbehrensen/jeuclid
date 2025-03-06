@@ -20,8 +20,9 @@ package net.sourceforge.jeuclid.elements.presentation.table;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLElement;
-import org.w3c.dom.mathml.MathMLLabeledRowElement;
+
+import net.sourceforge.jeuclid.mathml.MathMLElement;
+import net.sourceforge.jeuclid.mathml.MathMLLabeledRowElement;
 
 /**
  * This class represents the mlabeledtr tag.

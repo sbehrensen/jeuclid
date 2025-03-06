@@ -19,10 +19,10 @@
 package net.sourceforge.jeuclid.elements.presentation.table;
 
 import net.sourceforge.jeuclid.elements.AbstractInvisibleJEuclidElement;
+import net.sourceforge.jeuclid.mathml.MathMLAlignMarkElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLAlignMarkElement;
 
 /**
  * This class represents the malignmark tag.

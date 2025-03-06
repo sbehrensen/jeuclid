@@ -21,7 +21,8 @@ package net.sourceforge.jeuclid.elements.support;
 import java.util.List;
 
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLNodeList;
+
+import net.sourceforge.jeuclid.mathml.MathMLNodeList;
 
 /**
  * Implements a MathMLNodeList based on a java.util.List.

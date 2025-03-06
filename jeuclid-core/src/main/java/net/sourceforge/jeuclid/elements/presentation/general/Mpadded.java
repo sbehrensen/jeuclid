@@ -19,10 +19,10 @@
 package net.sourceforge.jeuclid.elements.presentation.general;
 
 import net.sourceforge.jeuclid.elements.presentation.AbstractContainer;
+import net.sourceforge.jeuclid.mathml.MathMLPaddedElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLPaddedElement;
 
 /**
  * This class implements the mpadded element.

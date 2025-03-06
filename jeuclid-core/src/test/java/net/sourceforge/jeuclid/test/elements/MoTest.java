@@ -21,12 +21,12 @@ package net.sourceforge.jeuclid.test.elements;
 import net.sourceforge.jeuclid.DOMBuilder;
 import net.sourceforge.jeuclid.MathMLParserSupport;
 import net.sourceforge.jeuclid.elements.presentation.token.Mo;
+import net.sourceforge.jeuclid.mathml.MathMLDocument;
+import net.sourceforge.jeuclid.mathml.MathMLMathElement;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.w3c.dom.Document;
-import org.w3c.dom.mathml.MathMLDocument;
-import org.w3c.dom.mathml.MathMLMathElement;
 
 /**
  * Various tests for the {@link Mo} Element.

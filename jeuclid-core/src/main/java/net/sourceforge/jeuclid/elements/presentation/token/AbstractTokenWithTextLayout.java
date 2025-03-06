@@ -35,9 +35,9 @@ import net.sourceforge.jeuclid.layout.LayoutStage;
 import net.sourceforge.jeuclid.layout.LayoutView;
 import net.sourceforge.jeuclid.layout.LayoutableNode;
 import net.sourceforge.jeuclid.layout.TextObject;
+import net.sourceforge.jeuclid.mathml.MathMLPresentationToken;
 
 import org.apache.batik.dom.AbstractDocument;
-import org.w3c.dom.mathml.MathMLPresentationToken;
 
 /**
  * Common functionality for all tokens based on a text layout.

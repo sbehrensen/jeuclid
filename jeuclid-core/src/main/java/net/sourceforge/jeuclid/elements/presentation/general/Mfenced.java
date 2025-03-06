@@ -27,10 +27,10 @@ import net.sourceforge.jeuclid.elements.AbstractJEuclidElement;
 import net.sourceforge.jeuclid.elements.presentation.token.Mo;
 import net.sourceforge.jeuclid.elements.support.operatordict.OperatorDictionary;
 import net.sourceforge.jeuclid.layout.LayoutableNode;
+import net.sourceforge.jeuclid.mathml.MathMLFencedElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLFencedElement;
 
 /**
  * The class represents the mfenced element.

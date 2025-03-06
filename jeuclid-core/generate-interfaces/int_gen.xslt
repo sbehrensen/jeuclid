@@ -33,7 +33,7 @@ omit-xml-declaration="yes"
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.w3c.dom.mathml; import
+package net.sourceforge.jeuclid.mathml; import
   org.w3c.dom.*; 
 
 /*

@@ -41,6 +41,9 @@ import net.sourceforge.jeuclid.layout.LayoutInfo;
 import net.sourceforge.jeuclid.layout.LayoutStage;
 import net.sourceforge.jeuclid.layout.LayoutView;
 import net.sourceforge.jeuclid.layout.LayoutableNode;
+import net.sourceforge.jeuclid.mathml.MathMLElement;
+import net.sourceforge.jeuclid.mathml.MathMLMathElement;
+import net.sourceforge.jeuclid.mathml.MathMLNodeList;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.apache.batik.dom.GenericElementNS;
@@ -48,9 +51,6 @@ import org.apache.batik.dom.events.DOMMutationEvent;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Node;
 import org.w3c.dom.events.Event;
-import org.w3c.dom.mathml.MathMLElement;
-import org.w3c.dom.mathml.MathMLMathElement;
-import org.w3c.dom.mathml.MathMLNodeList;
 
 /**
  * The basic class for all math elements. Every element class inherits from this

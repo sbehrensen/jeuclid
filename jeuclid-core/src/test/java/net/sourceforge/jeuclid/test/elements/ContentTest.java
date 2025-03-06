@@ -21,14 +21,14 @@ package net.sourceforge.jeuclid.test.elements;
 import net.sourceforge.jeuclid.DOMBuilder;
 import net.sourceforge.jeuclid.MathMLParserSupport;
 import net.sourceforge.jeuclid.MathMLSerializer;
+import net.sourceforge.jeuclid.mathml.MathMLAnnotationElement;
+import net.sourceforge.jeuclid.mathml.MathMLDocument;
+import net.sourceforge.jeuclid.mathml.MathMLMathElement;
+import net.sourceforge.jeuclid.mathml.MathMLSemanticsElement;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.w3c.dom.Document;
-import org.w3c.dom.mathml.MathMLAnnotationElement;
-import org.w3c.dom.mathml.MathMLDocument;
-import org.w3c.dom.mathml.MathMLMathElement;
-import org.w3c.dom.mathml.MathMLSemanticsElement;
 
 /**
  * Various tests for the DOM model.

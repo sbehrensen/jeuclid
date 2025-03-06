@@ -20,7 +20,8 @@ package net.sourceforge.jeuclid.elements.presentation.table;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLTableCellElement;
+
+import net.sourceforge.jeuclid.mathml.MathMLTableCellElement;
 
 /**
  * This class presents a cell of a table.

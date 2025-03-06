@@ -21,8 +21,7 @@ package net.sourceforge.jeuclid.elements;
 import net.sourceforge.jeuclid.LayoutContext;
 import net.sourceforge.jeuclid.elements.support.attributes.MathVariant;
 import net.sourceforge.jeuclid.layout.LayoutableNode;
-
-import org.w3c.dom.mathml.MathMLElement;
+import net.sourceforge.jeuclid.mathml.MathMLElement;
 
 /**
  * Interface for all MathElements within JEuclid.

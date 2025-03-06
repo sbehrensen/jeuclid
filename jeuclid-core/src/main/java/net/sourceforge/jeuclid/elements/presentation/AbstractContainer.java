@@ -19,12 +19,12 @@
 package net.sourceforge.jeuclid.elements.presentation;
 
 import net.sourceforge.jeuclid.elements.AbstractJEuclidElement;
+import net.sourceforge.jeuclid.mathml.MathMLDeclareElement;
+import net.sourceforge.jeuclid.mathml.MathMLElement;
+import net.sourceforge.jeuclid.mathml.MathMLNodeList;
+import net.sourceforge.jeuclid.mathml.MathMLPresentationContainer;
 
 import org.apache.batik.dom.AbstractDocument;
-import org.w3c.dom.mathml.MathMLDeclareElement;
-import org.w3c.dom.mathml.MathMLElement;
-import org.w3c.dom.mathml.MathMLNodeList;
-import org.w3c.dom.mathml.MathMLPresentationContainer;
 
 /**
  * Abstract implementation for all classes that provide support for the DOM

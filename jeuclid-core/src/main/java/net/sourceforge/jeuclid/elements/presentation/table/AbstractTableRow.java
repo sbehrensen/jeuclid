@@ -19,9 +19,10 @@
 package net.sourceforge.jeuclid.elements.presentation.table;
 
 import org.apache.batik.dom.AbstractDocument;
-import org.w3c.dom.mathml.MathMLNodeList;
-import org.w3c.dom.mathml.MathMLTableCellElement;
-import org.w3c.dom.mathml.MathMLTableRowElement;
+
+import net.sourceforge.jeuclid.mathml.MathMLNodeList;
+import net.sourceforge.jeuclid.mathml.MathMLTableCellElement;
+import net.sourceforge.jeuclid.mathml.MathMLTableRowElement;
 
 /**
  * Abstract class for table rows with and without label.

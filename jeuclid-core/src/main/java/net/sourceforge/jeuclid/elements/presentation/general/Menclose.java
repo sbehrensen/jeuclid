@@ -44,12 +44,12 @@ import net.sourceforge.jeuclid.layout.LayoutStage;
 import net.sourceforge.jeuclid.layout.LayoutView;
 import net.sourceforge.jeuclid.layout.LayoutableNode;
 import net.sourceforge.jeuclid.layout.LineObject;
+import net.sourceforge.jeuclid.mathml.MathMLEncloseElement;
 
 import org.apache.batik.dom.AbstractDocument;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.w3c.dom.Node;
-import org.w3c.dom.mathml.MathMLEncloseElement;
 
 /**
  * Class for supporting "menclose" elements.
