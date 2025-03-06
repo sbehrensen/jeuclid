@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>de.rototor.jeuclid</groupId>
+	<groupId>com.github.sbehrensen</groupId>
 	<artifactId>jeuclid-parent</artifactId>
 	<name>JEuclid</name>
-	<version>3.1.15-SNAPSHOT</version>
+	<version>3.1.15</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>jeuclid-core</module>
-		<module>jeuclid-testsuite</module>
-		<module>jeuclid-fop</module>
 	</modules>
 	<description>
-		This is a stripped down version of jeculid running with JDK 9 with Batik 1.14. Minimum Java requirement is 1.6.
+		Fork of http://jeuclid.sourceforge.net/ and https://github.com/rototor/jeuclid/ to remove package name violation in MathML code.
+		Build scripts are stripped down to the minimum to make the jeuclid-core.
+		Features may have been removed so if you need the complete packages please go to https://github.com/rototor/jeuclid/. 
 
 		Original Description:
 
@@ -220,8 +220,8 @@
 		</contributor>
 	</contributors>
 	<scm>
-		<url>https://github.com/rototor/jeuclid</url>
-		<connection>scm:git:https://github.com/rototor/jeuclid.git</connection>
+		<url>https://github.com/sbehrensen/jeuclid</url>
+		<connection>scm:git:https://github.com/sbehrensen/jeuclid.git</connection>
 		<tag>HEAD</tag>
 	</scm>
 	<dependencies>
@@ -233,48 +233,15 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<extensions>
-			<extension>
-				<groupId>de.rototor.jeuclid</groupId>
-				<artifactId>build-tools</artifactId>
-				<version>1.0.5</version>
-			</extension>
-		</extensions>
 		<defaultGoal>install</defaultGoal>
 		<plugins>
-			<plugin>
-				<!-- This is necessary for docbook sites on OS X -->
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-site-plugin</artifactId>
-				<version>3.0-beta-3</version>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.doxia</groupId>
-						<artifactId>doxia-module-docbook-simple</artifactId>
-						<version>1.2</version>
-					</dependency>
-					<dependency>
-						<groupId>org.apache.maven.doxia</groupId>
-						<artifactId>doxia-module-xhtml</artifactId>
-						<version>1.2</version>
-					</dependency>
-				</dependencies>
-				<executions>
-					<execution>
-						<id>attach-descriptor</id>
-						<goals>
-							<goal>attach-descriptor</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>${maven-compiler-plugin.version}</version>
 				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.8</source>
+					<target>1.8</target>
 					<debug>false</debug>
 					<optimize>true</optimize>
 				</configuration>
@@ -291,17 +258,6 @@
 						</property>
 					</systemProperties>
 					<parallel>methods</parallel>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>com.pyx4me</groupId>
-				<artifactId>proguard-maven-plugin</artifactId>
-				<version>2.0.4</version>
-				<configuration>
-					<libs>
-						<lib>${runtime.lib}</lib>
-					</libs>
-					<proguardInclude>${common.dir}/proguard.lib.conf</proguardInclude>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -373,26 +329,7 @@
 					<!-- Required by Dashboard -->
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>dashboard-maven-plugin</artifactId>
-				<version>1.0.0-beta-1</version>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-gpg-plugin</artifactId>
-				<version>1.6</version>
-				<executions>
-					<execution>
-						<id>sign-artifacts</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>sign</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
